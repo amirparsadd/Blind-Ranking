@@ -1,0 +1,247 @@
+{
+    "topics": [
+      {
+        "topic": "Fruits",
+        "items": [
+          "Apple",
+          "Banana",
+          "Orange",
+          "Grapes",
+          "Strawberry",
+          "Peach",
+          "Mango",
+          "Pineapple",
+          "Kiwi",
+          "Cantaloupe",
+          "Watermelon",
+          "Pear",
+          "Coconut",
+          "Lemon",
+          "Melon",
+          "Pomegranate",
+          "Blueberry"
+        ]
+      },
+      {
+        "topic": "Movies",
+        "items": [
+          "The Dark Knight",
+          "The Shawshank Redemption",
+          "The Godfather",
+          "Forrest Gump",
+          "Avengers: Endgame",
+          "Star Wars: The Empire Strikes Back",
+          "Pulp Fiction",
+          "Titanic",
+          "Alien",
+          "The Matrix",
+          "The Great Gatsby",
+          "Unforgiven",
+          "Lawrence of Arabia",
+          "Jaws",
+          "Braveheart",
+          "Saving Private Ryan",
+          "Inception"
+        ]
+      },
+      {
+        "topic": "Famous Countries",
+        "items": [
+          "United States",
+          "Canada",
+          "Japan",
+          "Germany",
+          "France",
+          "Italy",
+          "United Kingdom",
+          "China",
+          "India",
+          "Australia",
+          "Brazil",
+          "Russia",
+          "Mexico",
+          "Spain",
+          "South Korea",
+          "Turkey",
+          "Sweden"
+        ]
+      },
+      {
+        "topic": "Video Games",
+        "items": [
+          "The Legend of Zelda: Breath of the Wild",
+          "The Witcher 3: Wild Hunt",
+          "Grand Theft Auto V",
+          "Red Dead Redemption 2",
+          "Minecraft",
+          "Fortnite",
+          "League of Legends",
+          "Super Mario Odyssey",
+          "Call of Duty: Warzone",
+          "Overwatch",
+          "Elden Ring",
+          "Halo Infinite",
+          "Cyberpunk 2077",
+          "Resident Evil Village",
+          "Assassin's Creed Valhalla",
+          "Animal Crossing: New Horizons",
+          "Among Us"
+        ]
+      },
+      {
+        "topic": "Books",
+        "items": [
+          "To Kill a Mockingbird",
+          "1984",
+          "The Great Gatsby",
+          "The Catcher in the Rye",
+          "Harry Potter and the Philosopher's Stone",
+          "The Hobbit",
+          "Pride and Prejudice",
+          "The Lord of the Rings",
+          "The Alchemist",
+          "Moby-Dick",
+          "War and Peace",
+          "Crime and Punishment",
+          "The Odyssey",
+          "Brave New World",
+          "The Diary of a Young Girl",
+          "The Da Vinci Code",
+          "The Catcher in the Rye"
+        ]
+      },
+      {
+        "topic": "Animals",
+        "items": [
+          "Lion",
+          "Elephant",
+          "Tiger",
+          "Kangaroo",
+          "Panda",
+          "Giraffe",
+          "Penguin",
+          "Dolphin",
+          "Eagle",
+          "Koala",
+          "Zebra",
+          "Leopard",
+          "Hippopotamus",
+          "Crocodile",
+          "Rhinoceros",
+          "Whale",
+          "Chimpanzee"
+        ]
+      },
+      {
+        "topic": "Foods",
+        "items": [
+          "Pizza",
+          "Sushi",
+          "Burger",
+          "Pasta",
+          "Steak",
+          "Tacos",
+          "Ramen",
+          "Paella",
+          "Falafel",
+          "Lasagna",
+          "Curry",
+          "Chow Mein",
+          "Barbecue Ribs",
+          "Goulash",
+          "Shawarma",
+          "Kebabs",
+          "Dim Sum"
+        ]
+      },
+      {
+        "topic": "Sports",
+        "items": [
+          "Soccer",
+          "Basketball",
+          "Baseball",
+          "Tennis",
+          "Golf",
+          "Cricket",
+          "Rugby",
+          "Hockey",
+          "Volleyball",
+          "Badminton",
+          "Table Tennis",
+          "Boxing",
+          "Wrestling",
+          "Cycling",
+          "Swimming",
+          "Athletics",
+          "Ice Skating"
+        ]
+      },
+      {
+        "topic": "Famous Brands",
+        "items": [
+          "Apple",
+          "Nike",
+          "Coca-Cola",
+          "McDonald's",
+          "Google",
+          "Microsoft",
+          "Samsung",
+          "Amazon",
+          "Toyota",
+          "BMW",
+          "Adidas",
+          "Louis Vuitton",
+          "Huawei",
+          "Visa",
+          "Pepsi",
+          "Sony",
+          "Intel"
+        ]
+      },
+      {
+        "topic": "World Cities",
+        "items": [
+          "New York",
+          "London",
+          "Paris",
+          "Tokyo",
+          "Dubai",
+          "Sydney",
+          "Hong Kong",
+          "Singapore",
+          "Rome",
+          "Berlin",
+          "Barcelona",
+          "San Francisco",
+          "Toronto",
+          "Istanbul",
+          "Moscow",
+          "Mumbai",
+          "Bangkok"
+        ]
+      },
+      {
+        "topic": "Colors",
+        "items": [
+          "Red",
+          "Blue",
+          "Green",
+          "Yellow",
+          "Orange",
+          "Purple",
+          "Pink",
+          "Black",
+          "White",
+          "Brown",
+          "Grey",
+          "Cyan",
+          "Magenta",
+          "Maroon",
+          "Lime",
+          "Olive",
+          "Navy"
+        ]
+      }
+    ]
+  }
+  
