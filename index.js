@@ -10,7 +10,9 @@ game()
 
 function game(){
     clear()
-    console.table([...topics].map(value => {return {topic: value.topic}}));
+    displayTopics()
+
+    // make sure a random topic is chosen if no topic was provided
     let topic = topics[limit(Number(prompt(`Choose a topic or leave empty (0-${topics.length-1}): `)), 0, topics.length-1) || rng({min: 0, max: topics.length-1, integer:true})];
     console.log(`Your Chosen Topic Is... ${topic.topic}!`);
 
@@ -39,6 +41,10 @@ function game(){
 
 }
 
+function displayTopics(){
+    console.table([...topics].map(value => {return {topic: value.topic}}))
+}
+
 function limit(num, min, max){
     const MIN = min;
     const MAX = max;
@@ -46,8 +52,10 @@ function limit(num, min, max){
     return Math.min(Math.max(parsed, MIN), MAX);
 }
 
-function clear(){
+function clear(noHeader = false){
     console.clear()
+
+    if(noHeader) return
 
     console.log(`
 ####   #      ###    #  #   ###           ###      #    #  #   #  #  
@@ -55,7 +63,9 @@ function clear(){
 ####   #       #     # ##   #  #          #  #   #   #  # ##   ##    
 #   #  #       #     #  #   #  #          ###    #####  #  #   # #   
 #   #  #       #     #  #   #  #          #  #   #   #  #  #   #  #  
-####   ####   ###    #  #   ###           #  #   #   #  #  #   #  #                              
+####   ####   ###    #  #   ###           #  #   #   #  #  #   #  #          
+
+Write "exit" To Exit The Game 
     `)
 }
 
@@ -63,9 +73,14 @@ function getInput(item, choices){
     let done = false
 
     while(!done){
-        const input = Number(prompt(`Where Does ${item} belong to? (1-${ITEMS_PER_ROUND})`))
+        const input = prompt(`Where Does ${item} belong to? (1-${ITEMS_PER_ROUND}) `)
 
-        if(isNaN(input)) continue
+        if(input == "exit") {
+            clear(true)
+            process.exit()
+        }
+
+        if(Number(isNaN(input))) continue
         if(limit(input, 1, ITEMS_PER_ROUND) != input) continue
         if(choices[input]){
             console.log("That Place Is Occupied By " + choices[input])
