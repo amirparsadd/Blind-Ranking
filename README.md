@@ -5,7 +5,7 @@ This Is A Game Based On The Trending Video Format *"Rank these X without knowing
 ## How To Play
 
 1. First Download All The Required Packages By Doing `npm i`
-2. Then Start The Game By Doing `node .`
+2. Then Start The Game By Doing `npm start`
 
 ## Contribution
 
