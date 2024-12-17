@@ -13,4 +13,4 @@ You Can Help This Project Grow By **Contributing**
 
 ## TODO
 
-1. Add More Topic And Topic Items
+1. Add More Topics And Topic Items
