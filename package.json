@@ -1,7 +1,7 @@
 {
   "name": "blind-ranking",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "A game based on a popular video format built for the CLI",
   "main": "index.js",
   "scripts": {
     "start": "node ."
